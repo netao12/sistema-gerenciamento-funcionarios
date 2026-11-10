@@ -1,0 +1,1 @@
+\# Arquivos compilados do Java \*.class bin/ target/ # Arquivos de configurações das IDEs .idea/ .vscode/ \*.iml .settings/ .classpath .project # Outros arquivos temporários \*.log \*.zip
