@@ -1,9 +1,5 @@
-package dao;
+package br.com.projeto.dao;
 
-import conexao.Conexao;
-import model.Funcionario;
-import model.Gerente;
-import model.Operador;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,6 +7,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+
+import br.com.projeto.conexao.Conexao;
+import br.com.projeto.model.Funcionario;
+import br.com.projeto.model.Gerente;
+import br.com.projeto.model.Operador;
 
 public class FuncionarioDAO {
 

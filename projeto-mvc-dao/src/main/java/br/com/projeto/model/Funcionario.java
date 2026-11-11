@@ -1,9 +1,13 @@
-package model;
+package br.com.projeto.model;
 
-public abstract class Funcionario {
+public abstract class Funcionario { // ou public class Funcionario
     protected int matricula;
     protected String nome;
     protected int idade;
+
+    // Construtor vazio necessário para as subclasses
+    public Funcionario() {
+    }
 
     public Funcionario(int matricula, String nome, int idade) {
         this.matricula = matricula;
@@ -34,4 +38,7 @@ public abstract class Funcionario {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+    // ... getters e setters
+    
 }
