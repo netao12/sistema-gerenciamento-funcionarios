@@ -1,6 +1,6 @@
 package br.com.projeto;
 
-// Importando as classes que estão em outras pastas
+
 import br.com.projeto.view.FuncionarioView;
 
 public class Main {

@@ -114,7 +114,7 @@ public class FuncionarioDAO {
         }
     }
 
-    // Método auxiliar para converter ResultSet em Objeto
+    
     private Funcionario instanciarFuncionario(ResultSet rs) throws SQLException {
         String tipo = rs.getString("tipo");
         if ("GERENTE".equals(tipo)) {

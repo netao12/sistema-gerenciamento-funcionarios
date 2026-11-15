@@ -1,11 +1,11 @@
 package br.com.projeto.model;
 
-public abstract class Funcionario { // ou public class Funcionario
+public abstract class Funcionario { 
     protected int matricula;
     protected String nome;
     protected int idade;
 
-    // Construtor vazio necessário para as subclasses
+    
     public Funcionario() {
     }
 
@@ -39,6 +39,6 @@ public abstract class Funcionario { // ou public class Funcionario
         this.idade = idade;
     }
 
-    // ... getters e setters
+    
     
 }
